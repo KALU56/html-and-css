@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header.blue {
+    padding: 15px;
+}
+.blue{
+    background-color: blue;
+    text-align: center;
+    color: white;
+   
+}
