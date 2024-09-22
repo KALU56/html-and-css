@@ -1,13 +1,74 @@
 *{
     margin: 0;
     padding: 0;
+ 
+  position: relative;
 }
-header.blue {
-    padding: 15px;
+body{
+  
 }
+header.blue{
+    padding: 15px 0;
+}
+
 .blue{
     background-color: blue;
     text-align: center;
     color: white;
    
 }
+.puppy{
+    display: flex;
+}
+
+.puppyintro{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    margin-bottom: 20px; 
+}
+.intro img{
+    width: 100%;
+    height: 20%;
+}
+.puppy1,.text,.puppy2{
+    display: flex;
+  width: 33%;
+
+}
+.text{
+    padding: 30px;
+    
+    background-color: blue;
+}
+.text p{
+text-align: center;
+padding-top: 35PX;
+
+}
+.puppy img{
+   width: 300px;
+  height: 300px;
+  margin-left: 25px;
+  justify-content: space-between;
+  display: flex;
+  /* position: relative; */
+}
+.more1{
+    text-align: center;
+}
+
+
+.puppy0{
+    display: flex;
+}
+.puppy0 img{
+    width: 200px;
+    height: 200px;
+    
+  justify-content: space-between;
+    margin: 35px ;
+}
+  footer.blue{
+    padding: 25px 0;
+  }
